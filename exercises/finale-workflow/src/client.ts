@@ -11,7 +11,7 @@ async function run() {
 
   const handle = await client.workflow.start(CertificateGeneratorWorkflow, {
     // TO DO: Change 'Maxim Fateev' to your name
-    args: ['Maxim Fateev'],
+    args: ['Ahmad Ammari'],
     taskQueue: 'generate-certificate-taskqueue',
     workflowId: 'cert-generator-workflow-' + uuid4(),
   });
